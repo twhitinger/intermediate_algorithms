@@ -1,9 +1,13 @@
+
+
+ // return the symmetric difference of the two arrays. Compare two arrays and return a new array with any
+ // items only found in one of the two given arrays, but not both.
+
+
 const diffArray = (arr1, arr2) => {
   return arr1.filter(i => arr2.indexOf(i) < 0).
   concat(arr2.filter(i => arr1.indexOf(i) < 0));
 };
-
-
 
 const symmetricDifference = (arr1, arr2) => {
   let result = [];
