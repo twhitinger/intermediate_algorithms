@@ -13,7 +13,7 @@ const diffArray = (arr1, arr2) => {
 
 // Example using for loops
 
-const symmetricDifference = (arr1, arr2) => {
+const symmetricDifferenceLoop = (arr1, arr2) => {
   let result = [];
   for (let i = 0; i < arr1.length; i++){
     if ( arr2.indexOf(arr1[i]) === -1 ) {
